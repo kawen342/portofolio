@@ -1,0 +1,84 @@
+    /* Efek animasi tombol saat diklik */
+    .btn {
+        transition: transform 0.2s ease-in-out;
+    }
+    
+    .btn:active {
+        transform: scale(0.95); /* Memperkecil tombol sedikit saat diklik */
+    }
+    
+    /* Styling untuk tombol "Tambah Proyek" */
+    button.btn-primary {
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+    
+    button.btn-primary:hover {
+        background-color: #0056b3;
+    }
+    
+    /* Styling untuk tombol "Hapus Proyek" */
+    button.btn-danger {
+        background-color: #dc3545;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+    
+    button.btn-danger:hover {
+        background-color: #c82333;
+    }
+    
+    /* Styling untuk tombol "Download Proyek" */
+    button.btn-success {
+        background-color: #28a745;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+    
+    button.btn-success:hover {
+        background-color: #218838;
+    }
+    
+    /* Styling untuk tombol di bawah */
+    button.mt-3 {
+        background-color: #007bff;
+        color: rgb(177, 14, 14);
+        border: none;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+    
+    button.mt-3:hover {
+        background-color: #0056b3;
+    }
+    
+    .portfolio-container h2 {
+        color: rgb(223, 3, 3); /* Warna putih untuk judul */
+    }
+    
+    .portfolio-container .card-body {
+        color: white; /* Warna putih untuk teks deskripsi */
+    }
+    
+    /* Untuk tombol agar lebih terlihat jika ada latar belakang gelap */
+    button.btn-primary, 
+    button.btn-danger, 
+    button.btn-success {
+        color: white; /* Warna putih untuk teks tombol */
+    }
+    
+    /* Styling untuk tombol upload gambar baru */
+button.btn-info {
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+button.btn-info:hover {
+    background-color: #138496;
+}
